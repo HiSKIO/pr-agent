@@ -50,7 +50,7 @@ inline_code_comments = false
 ask_and_reflect=false
 #automatic_review=true
 persistent_comment=true
-extra_instructions = ""
+extra_instructions = "Answer in Traditional Chinese"
 final_update_message = true
 # review labels
 enable_review_labels_security=true
@@ -70,7 +70,7 @@ publish_labels=true
 add_original_user_description=true
 generate_ai_title=false
 use_bullet_points=true
-extra_instructions = ""
+extra_instructions = "Answer in Traditional Chinese"
 enable_pr_type=true
 final_update_message = true
 enable_help_text=false
@@ -100,7 +100,7 @@ enable_help_text=false
 max_context_tokens=14000
 num_code_suggestions=4
 commitable_code_suggestions = false
-extra_instructions = ""
+extra_instructions = "Answer in Traditional Chinese"
 rank_suggestions = false
 enable_help_text=false
 persistent_comment=true
@@ -138,20 +138,20 @@ enable_help_text=false
 
 
 [pr_add_docs] # /add_docs #
-extra_instructions = ""
+extra_instructions = "Answer in Traditional Chinese"
 docs_style = "Sphinx" # "Google Style with Args, Returns, Attributes...etc", "Numpy Style", "Sphinx Style", "PEP257", "reStructuredText"
 file = ""              # in case there are several components with the same name, you can specify the relevant file
 class_name = ""        # in case there are several methods with the same name in the same file, you can specify the relevant class name
 
 [pr_update_changelog] # /update_changelog #
 push_changelog_changes=false
-extra_instructions = ""
+extra_instructions = "Answer in Traditional Chinese"
 
 [pr_analyze] # /analyze #
 enable_help_text=true
 
 [pr_test] # /test #
-extra_instructions = ""
+extra_instructions = "Answer in Traditional Chinese"
 testing_framework = "" # specify the testing framework you want to use
 num_tests=3            # number of tests to generate. max 5.
 avoid_mocks=true       # if true, the generated tests will prefer to use real objects instead of mocks
@@ -161,7 +161,7 @@ enable_help_text=false
 
 [pr_improve_component] # /improve_component #
 num_code_suggestions=4
-extra_instructions = ""
+extra_instructions = "Answer in Traditional Chinese"
 file = ""              # in case there are several components with the same name, you can specify the relevant file
 class_name = ""        # in case there are several methods with the same name in the same file, you can specify the relevant class name
 
